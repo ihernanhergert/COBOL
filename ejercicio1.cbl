@@ -2,15 +2,16 @@
       * Author:
       * Date:
       * Purpose: Este programa debe ser capaz de diferenciar entre
-      * personas con diferentes niveles de experiencias como programador
-      * asignarles un sueldo acorde y dividirlos en:
-      * 1. 0 a 2años = Junior //Sueldo = $110.000.
-      * 2. 3 a 5 años = SemiSenior //Sueldo = $160.000.
-      * 3. 6+años = Senior //Sueldo = $200.000
+      *          personas con diferentes niveles de experiencias como
+      *          programador asignarles un sueldo acorde y dividirlos
+      *          en:
+      *              1. 0 a 2años = Junior //Sueldo = $110.000.
+      *              2. 3 a 5 años = SemiSenior //Sueldo = $160.000.
+      *              3. 6+años = Senior //Sueldo = $200.000
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. YOUR-PROGRAM-NAME.
+       PROGRAM-ID. EJERCICIO01.
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
@@ -80,4 +81,4 @@
        EXIT
 
        STOP RUN.
-       END PROGRAM YOUR-PROGRAM-NAME.
+       END PROGRAM EJERCICIO01.
